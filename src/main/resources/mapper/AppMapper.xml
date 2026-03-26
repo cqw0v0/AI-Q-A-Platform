@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hue.cqw.mapper.AppMapper">
 
-    <resultMap id="BaseResultMap" type="generateor.domain.App">
+    <resultMap id="BaseResultMap" type="com.hue.cqw.model.entity.App">
             <id property="id" column="id" />
             <result property="appName" column="appName" />
             <result property="appDesc" column="appDesc" />
